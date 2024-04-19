@@ -11,4 +11,14 @@ public class IntegrationController {
         return "addintegration";
     }
 
+    @GetMapping("/integrations")
+    public String getIntegrationsPage() {
+        return "integrations";
+    }
+
+    @GetMapping("/integration/test")
+    public String getIntegrationPage() {
+        return "integration";
+    }
+
 }
